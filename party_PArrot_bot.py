@@ -3,7 +3,7 @@ import os
 
 import discord
 
-TOKEN = "ODI1ODA3NzE2MTI3NjA0NzM2.YGDTXg.7Sd5rIVxIDzwsMxcazqau2-D6ko}"
+TOKEN = "ENTER TOKEN HERE"
 
 client = discord.Client()
 
@@ -35,8 +35,7 @@ async def do_the_thing(message):
 
 
 try:
-    token = "ODI1ODA3NzE2MTI3NjA0NzM2.YGDTXg.7Sd5rIVxIDzwsMxcazqau2-D6ko"
-    client.run(token)
+    client.run(TOKEN)
 except OSError:
     print("Error: Token could not be accessed")
     exit(1)

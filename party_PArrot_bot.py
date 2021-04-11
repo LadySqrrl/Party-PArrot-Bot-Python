@@ -1,9 +1,9 @@
-# party_PArrot_bot.py
+# bot.py
 import os
 
 import discord
 
-TOKEN = "ODI1ODA3NzE2MTI3NjA0NzM2.YGDTXg.7Sd5rIVxIDzwsMxcazqau2-D6ko}"
+TOKEN = "ODI1ODA3NzE2MTI3NjA0NzM2.YGDTXg.EaXG9CY34LLIOf_ZoeFKb2gDdHs"
 
 client = discord.Client()
 
@@ -35,7 +35,7 @@ async def do_the_thing(message):
 
 
 try:
-    token = "ODI1ODA3NzE2MTI3NjA0NzM2.YGDTXg.7Sd5rIVxIDzwsMxcazqau2-D6ko"
+    token = "ODI1ODA3NzE2MTI3NjA0NzM2.YGDTXg.EaXG9CY34LLIOf_ZoeFKb2gDdHs"
     client.run(token)
 except OSError:
     print("Error: Token could not be accessed")
